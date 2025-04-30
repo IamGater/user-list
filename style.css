@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form label,
+button {
+  display: block;
+  margin: 10px 0;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #518153;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button[type="button"] {
+  background-color: #923029;
+  border-radius: 5px;
+}
+
+#userForm {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

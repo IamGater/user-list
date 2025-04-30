@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список користувачів</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <h1>Список користувачів</h1>
+    <button onclick="toggleForm()">Додати користувача</button>
+
+    <div id="userForm" style="display: none">
+      <form id="form">
+        <label>Ім’я<input type="text" id="firstName" required /></label>
+        <label>Прізвище<input type="text" id="lastName" required /></label>
+        <label>Email<input type="email" id="email" required /></label>
+        <label>Телефон<input type="text" id="phone" required /></label>
+        <label
+          >Дата народження<input type="date" id="birthDate" required
+        /></label>
+        <label>Аватар<input type="file" id="avatar" /></label>
+        <button type="submit">Зберегти</button>
+        <button type="button" onclick="toggleForm()">Скасувати</button>
+      </form>
+    </div>
+
+    <ul id="userList"></ul>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
